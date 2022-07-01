@@ -1,0 +1,16 @@
+playRound()
+purpose: play a single round of rps
+    1. Prompt player for rock, paper or scissor.
+    2. Call computerPlay() to return the computer-generated hand.
+    3. Compare hands.
+    4. If player wins by any combination of rock > scissor, paper > rock, or scissor > paper,
+    then display "You win! Rock beats Scissor!"
+    5. If player loses by combination of rock < paper, paper < scissor, scissor < rock,
+    the display "You lose! Paper beats Rock!"
+    6. If player and computer choose the same hand, then display "You both played Rock, it's a draw."
+
+game()
+purpose: play 5 rounds until a winner
+    1. Store number of wins for each player and computer in two variables.
+    2. Call playRound() until one of the variables reaches 5.
+    

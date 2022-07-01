@@ -1,1 +1,1 @@
-# odin-rps
+rock paper scissors in console
